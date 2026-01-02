@@ -16,7 +16,7 @@ def main():
     test2_input = "How are you ?"
     test3_input = "The quick brown fox jumped over the lazy dog"
     print(find_longest_word(test1_input))  # Expected output: ""
-    print(find_longest_word(test2_input))  # Expected output: "How"
+    print(find_longest_word(test2_input))  # Expected output: "you"
     print(find_longest_word(test3_input))  # Expected output: "jumped"
 
 
