@@ -1,9 +1,9 @@
 def main():
-    def is_balanced(str):
+    def is_balanced(input_string):
         stack = []
         pairs = {")": "(", "]": "[", "}": "{"}
 
-        for ch in str:
+        for ch in input_string:
             if ch in pairs.values():
                 stack.append(ch)
             elif ch in pairs:
